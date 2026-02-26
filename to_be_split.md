@@ -7,11 +7,12 @@ Some projects have a program rc_tank_util.py that is included they are not **all
 Hard to do that in pybricks-UI.
 
 Checked against the beta version V4.0.0.b6
+2026-02-26 BL check against version ```('ev3', '4.0.0b6', 'ci-build-4741-v4.0.0b6-6-g368c02cc on 2026-02-23')```
 
 | **Group**           | **Model**         | **Pybricks V4 compatible** | **Missing** |
 |:--------------------|:------------------|:-----------------------|:---------|
-| education-core      | color sorter      |                         | ImageFile, SoundFile |
-|                     | gyro_boy         |                         |  ucollections,  ImageFile, SoundFile      |
+| education-core      | color sorter      |                         | ~~ImageFile,~~ SoundFile |
+|                     | gyro_boy         |                         |  ~~ucollections,~~  ImageFile, SoundFile      |
 |                     | puppy             |                         |  media        |
 |                     | robot arm         | YES                    |          |
 |                     | robot educator basic| Yes, but not built   |          |

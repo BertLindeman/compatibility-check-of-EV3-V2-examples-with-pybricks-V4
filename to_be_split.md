@@ -1,3 +1,11 @@
+### updates:
+`initial    BL` Checked against the beta version V4.0.0.b6
+
+`2026-02-26 BL` Check against version
+  ```('ev3', '4.0.0b6', 'ci-build-4741-v4.0.0b6-6-g368c02cc on 2026-02-23')```
+
+
+
 ## Mindstorms EV3
 
 [EV3 Example sets from mindstorms-ev3](
@@ -5,13 +13,8 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 
 1. Some projects have a program rc_tank_util.py that is included they are not **all** the same.
 Hard to do that in pybricks-UI.
-2. breaking change: pybricks.media.ev3dev now is pybricks.parameters
-
-
-Checked against the beta version V4.0.0.b6
-
-2026-02-26 BL check against version
- ```('ev3', '4.0.0b6', 'ci-build-4741-v4.0.0b6-6-g368c02cc on 2026-02-23')```
+2. breaking changes:
+    - import from  ```pybricks.media.ev3dev``` is now ```pybricks.parameters```
 
 
 | **Group**           | **Model**         | **Pybricks V4 compatible** | **Missing** |

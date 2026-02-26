@@ -117,6 +117,35 @@ Slight difference on motor.control.pid():
 ##  hubs
 - V2_syntax_hubs.py
 
+Breaking changes:
+1. ```python
+    from pybricks.media.ev3dev import Font
+    ```
+    is now:
+    ```python
+    from pybricks.parameters import Font
+    ```
+
+2. ```python
+   hub.speaker.set_volume
+   ```
+    is now:
+   ```python
+   hub.speaker.volume(nn)
+   ```
+Report of errors:
+```
+        Not supported: hub.speaker.play_file 
+        Not supported: hub.speaker.say 
+        Not supported: hub.speaker.set_speech_options 
+        Not supported: hub.speaker.set_volume - use hub.speaker.volume(nn)
+        Not supported: hub.speaker.set_font
+        ImportError: no module named 'pybricks.media.ev3dev' use parameters
+        Not supported: hub.screen.load_image
+        Not supported: hub.screen.draw_image
+        Not supported: hub.screen.save
+```
+
 ## iodevices
 - V2_syntax_iodevices.py
 

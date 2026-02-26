@@ -1,10 +1,5 @@
 ## Introduction
 
-My programs to do the syntax checks:
-
-<img width="315" height="371" alt="image" src="https://github.com/user-attachments/assets/173df058-320d-40e2-9224-0c9bd1ecb72b" />
-
-
 <details><summary>Web scraped using a program like this on windows. Only the URL is changed for another part of the doc</summary>
 
 ```python
@@ -106,7 +101,10 @@ if __name__ == "__main__":
 ```
 </details>
 
+
 ## EV3Devices
+- V2_syntax_ev3devices.py
+
 Two tests are needed: one with a touch sensor on Port.S1 and another with the gyro sensor on Port.S1
 
 Slight difference on motor.control.pid():
@@ -117,16 +115,24 @@ Slight difference on motor.control.pid():
     - pid(kp, ki, kd, integral_deadzone, integral_rate)
 
 ##  hubs
+- V2_syntax_hubs.py
 
 ## iodevices
+- V2_syntax_iodevices.py
 
 ## media
+- V2_syntax_media.py
 
 ## messaging
+- V2_syntax_messaging.py
 
-### NXTDevices
+## NXTDevices
+- V2_syntax_nxtdevices_part1
+- V2_syntax_nxtdevices_part2
 
-### robotics
+## robotics
+- V2_syntax_robotics.py
 
-### tools
+## tools
+- V2_syntax_tools.py
 

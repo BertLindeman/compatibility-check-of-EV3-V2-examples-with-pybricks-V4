@@ -26,12 +26,12 @@ Checked against the beta version V4.0.0.b6
  |  |  |  |  |
  | education-expansion | elephant          |                         | SoundFile |
  |                     | stair climber     |                         | ~~Font,~~ SoundFile        |
- |                     | tank bot          |                         | ~~ImageFile~~     |
+ |                     | tank bot          | No syntax error, needs build test | ~~ImageFile~~     |
  |                     | znap              |                         |  SoundFile    |
  |  |  |  |  |
  | home-bonus          | bobb3e           |                         | SoundFile  |
  |                     | dinor3x          |                         | SoundFile  |
- |                     | e13ctric-guitar  |                         | ~~ImageFile~~  |
+ |                     | e13ctric-guitar  | No syntax error, needs build test | ~~ImageFile~~  |
  |                     | ev3_d4           |                         | threading, SoundFile |
  |                     | ev3-game         |                         | SoundFile |
  |                     | kraz3            |                         | run_parallel, SoundFile |
@@ -46,8 +46,8 @@ Checked against the beta version V4.0.0.b6
 |           | spik3r    |                         | ~~ImageFile,~~ SoundFile    |
 |           | track3r_base   |  No syntax error, is imported    |          |
 |           | track3r with biblade_spinner | Needs build     |          |
-|           | track3r with blasting_bazooka   |      | ~~ImageFile,~~ SoundFile    |
-|           | track3r with gripping_claw   |      | SoundFile   |
-|           | track3r with heavy_hammer   |      |  ~~ImageFile,~~ SoundFile  |
+|           | track3r with blasting_bazooka   | Needs build  | ~~ImageFile,~~ SoundFile    |
+|           | track3r with gripping_claw   | Needs build | SoundFile   |
+|           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |
 
 

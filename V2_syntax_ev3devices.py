@@ -119,7 +119,7 @@ print(f"check motor.control.pid() {motor.control.pid()}")
 print(f"motor.control.target_tolerances() {motor.control.target_tolerances()}")
 s, p = motor.control.target_tolerances()
 motor.control.target_tolerances(s,p)
-print(f"motor.control.target_tolerances(50,5) {motor.control.target_tolerances()}")
+print(f"motor.control.target_tolerances() {motor.control.target_tolerances()}")
 	# Description: Gets or sets the tolerances that say when a maneuver is done.
 
 print(f"motor.control.stall_tolerances() {motor.control.stall_tolerances()}")
@@ -210,8 +210,11 @@ try:
     print(f"us.presence() {us.presence()}")
         # Description: Checks for the presence of other ultrasonic sensors
         # by detecting ultrasonic sounds.
+        
+    print(f"us.distance(silent=True) {us.distance(silent=True)}")
+        # Description: Measures the distance between the sensor and an object using
+        # ultrasonic sound waves.
 except:
     print("\nNo ultrasonic sensor on Port.S4\n")
 
 print("done on", version)
-

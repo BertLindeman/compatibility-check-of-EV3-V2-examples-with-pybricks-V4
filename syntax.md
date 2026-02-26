@@ -106,15 +106,23 @@ if __name__ == "__main__":
 ```
 </details>
 
-### EV3Devices
+## EV3Devices
+Two tests are needed: one with a touch sensor on Port.S1 and another with the gyro sensor on Port.S1
 
-###  hubs
+Slight difference on motor.control.pid():
 
-### iodevices
+- V2   doc
+    - pid(kp, ki, kd, integral_range, integral_rate, feed_forward)
+- V3.6 doc
+    - pid(kp, ki, kd, integral_deadzone, integral_rate)
 
-### media
+##  hubs
 
-### messaging
+## iodevices
+
+## media
+
+## messaging
 
 ### NXTDevices
 

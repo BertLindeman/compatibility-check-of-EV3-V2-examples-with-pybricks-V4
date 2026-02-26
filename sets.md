@@ -4,6 +4,9 @@
 `2026-02-26 BL` Check against version
   ```('ev3', '4.0.0b6', 'ci-build-4741-v4.0.0b6-6-g368c02cc on 2026-02-23')```
 
+`2026-02-26 BL` Check against version
+  ```('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')```
+
 
 
 ## Mindstorms EV3

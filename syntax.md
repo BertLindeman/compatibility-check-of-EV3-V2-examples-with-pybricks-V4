@@ -149,6 +149,17 @@ Report of errors:
 ## iodevices
 - V2_syntax_iodevices.py
 
+Report of errors:
+```
+        Not supported: LUMPDevice           read/write  Mode not writable
+
+        No AnalogSensor on Port.S4
+        No I2CDevice on Port.S4
+        No DCdev on Port.S4
+        Not supported import: Ev3devDensor
+```
+
+
 ## media
 - V2_syntax_media.py
 

@@ -217,6 +217,21 @@ Pybricks version: ('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')
 ## messaging
 - V2_syntax_messaging.py
 
+report of errors:
+```
+        Not supported: BluetoothMailboxServer can't import name BluetoothMailboxServer
+
+        Not supported: BluetoothMailboxClient can't import name BluetoothMailboxClient
+
+        Not supported: BluetoothMailboxServer can't import name Mailbox
+
+        Not supported: LogicMailbox           can't import name LogicMailbox
+
+        Not supported: NumericMailbox         can't import name NumericMailbox
+
+        Not supported: TextMailbox            can't import name TextMailbox
+```
+
 ## NXTDevices
 - V2_syntax_nxtdevices_part1
 - V2_syntax_nxtdevices_part2

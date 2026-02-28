@@ -234,7 +234,47 @@ report of errors:
 
 ## NXTDevices
 - V2_syntax_nxtdevices_part1
+
+report of errors:
+```
+Pybricks version: ('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')
+
+TouchSensor is <TouchSensor>
+ts.pressed() False
+ts.pressed() False
+ts.pressed() False
+ls.ambient()         0.3
+ls.ambient()         0.3
+ls.ambient()         0.4
+ls.reflection()      0.1
+ls.reflection()      0.1
+ls.reflection()      0.1
+cs.color()           Color.NONE
+cs.color()           Color.RED
+cs.color()           Color.RED
+        Not supported: ColorSensor.rgb()        'ColorSensor' object has no attribute 'rgb'
+
+        Not supported: ColorSensor.light.on / off()     'ColorSensor' object has no attribute 'light'
+
+us.distance()        200
+us.distance()        2550
+us.distance()        200
+```
+
 - V2_syntax_nxtdevices_part2
+
+report of errors:
+```
+ss.intensity(audible_only=False) 0
+ss.intensity(audible_only=False) 0
+ss.intensity(audible_only=False) 0
+ss.intensity(audible_only=True)  0
+ss.intensity(audible_only=True)  0
+ss.intensity(audible_only=True)  0
+        Not supported: TemperatureSensor        [Errno 116] ETIMEDOUT: Timed out
+
+        Not supported: EnergyMeter              [Errno 116] ETIMEDOUT: Timed out
+```
 
 ## robotics
 - V2_syntax_robotics.py

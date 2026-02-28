@@ -300,3 +300,16 @@ dev.heading_control.target_tolerances() (12, 9)
 ## tools
 - V2_syntax_tools.py
 
+report of errors:
+```
+1 Current time   500
+2 Current time  1000
+3 Current time  1500
+4 Current time     0
+5 Current time   500
+
+        Not supported: DataLog                  can't import name DataLog
+
+```
+
+

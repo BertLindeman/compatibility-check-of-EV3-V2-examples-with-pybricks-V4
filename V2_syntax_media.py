@@ -14,18 +14,17 @@ from pybricks.parameters import Color, Port
 hub = EV3Brick()
 
 # ── Helpers ──────────────────────────────────────────────────
-
 def try_import(name, old_path, new_path):
     """Try old import first, fall back to new; return class or None."""
     try:
-        mod = __import__(old_path, fromlist=[name])
+        mod = __import__(old_path, None, None, [name])   # positional, no kwargs
         cls = getattr(mod, name)
         print(f"  [{name}] loaded from {old_path}")
         return cls
     except Exception:
         pass
     try:
-        mod = __import__(new_path, fromlist=[name])
+        mod = __import__(new_path, None, None, [name])   # positional, no kwargs
         cls = getattr(mod, name)
         print(f"  [{name}] loaded from {new_path}")
         return cls
@@ -215,3 +214,4 @@ else:
 
 # ── Done ──────────────────────────────────────────────────────
 print("\n=== Syntax check complete ===")
+

@@ -279,6 +279,24 @@ ss.intensity(audible_only=True)  0
 ## robotics
 - V2_syntax_robotics.py
 
+report of errors:
+```
+        battery
+        buttons
+        light
+        screen
+        speaker
+        system
+
+(83, 392, 66, 375)
+dev.settings: (209, 392, 66, 375)
+100
+46.0
+(100, 5, 46, 10)
+dev.distance_control.limits() (209, 392, 449)
+dev.heading_control.target_tolerances() (12, 9)
+```
+
 ## tools
 - V2_syntax_tools.py
 

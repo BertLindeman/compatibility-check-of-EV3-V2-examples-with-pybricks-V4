@@ -163,6 +163,57 @@ Report of errors:
 ## media
 - V2_syntax_media.py
 
+Report of errors:
+```
+Pybricks version: ('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')
+
+=== 01 ImageFile ===
+  [ImageFile] loaded from pybricks.parameters
+  Found 8 ImageFile entries
+
+  Showing ImageFile.ACCEPT24
+  Showing ImageFile.ACCEPT24_FILL
+  Showing ImageFile.OFF20
+  Showing ImageFile.PYBRICKS_JOIN
+  Showing ImageFile.REJECT24
+  Showing ImageFile.REJECT24_FILL
+  Showing ImageFile.USB_HOST
+  Showing ImageFile.WRENCH17
+
+=== 02 Image ===
+  [Image] loaded from pybricks.parameters
+  Image size: 17 x 17
+  draw_text         OK
+  draw_pixel        OK
+  draw_line         OK
+  draw_box          OK
+  draw_circle       OK
+  draw_image        OK
+  load_image        OK
+  clear             OK
+  save              FAIL: 'Image' object has no attribute 'save'
+
+=== 03 SoundFile ===
+  [SoundFile] NOT available: 'module' object has no attribute 'SoundFile'
+  Skipping SoundFile — class unavailable
+
+=== 04 Font ===
+  [Font] loaded from pybricks.parameters
+  Available constants: DEFAULT, LIBERATIONSANS_14, MONO_8X5_8, TERMINUS_16
+  Text methods:       text_height, text_width
+
+  Font.DEFAULT      : <Font>
+  family            : Terminus
+  style             : Medium
+  width             : 8
+  height            : 16
+  text_width('Hello EV3') : 72
+  text_height('Hello EV3'): 16
+  set_font on screen OK
+
+=== Syntax check complete ===
+```
+
 ## messaging
 - V2_syntax_messaging.py
 

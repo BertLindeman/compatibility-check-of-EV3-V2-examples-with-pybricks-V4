@@ -42,7 +42,7 @@ Hard to do that in pybricks-UI.
  |                     | ev3-game         |                         | SoundFile |
  |                     | kraz3            |                         | run_parallel, SoundFile |
  |                     | mr-b3am          |                         | SoundFile  |
- |                     | rac3-truck       | No syntax error, needs build test |          |
+ |                     | rac3-truck       | YES, only need to adapt settings of the steering calibration depending on type of floor |          |
  |                     | robodoz3r        |                         |  SoundFile, play_file, time |
  |                     | wack3m           |                         | ~~ImageFile,~~ SoundFile, time     |
  |  |  |  |  |

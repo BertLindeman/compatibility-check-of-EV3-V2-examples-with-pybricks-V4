@@ -156,7 +156,7 @@ Report of errors:
         No AnalogSensor on Port.S4
         No I2CDevice on Port.S4
         No DCdev on Port.S4
-        Not supported import: Ev3devDensor
+        Not supported import: Ev3devSensor
 ```
 
 

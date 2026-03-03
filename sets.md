@@ -7,6 +7,7 @@
 `2026-02-26 BL` Check against version
   ```('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')```
 
+`2026-03-03 BL` Update rac3_truck compatibility
 
 
 ## Mindstorms EV3

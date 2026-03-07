@@ -12,9 +12,7 @@
 - Update rac3_truck compatibility
 
 `2026-03-07 BL` 
-- add urls for Robot Educator Programs (not core sets)
-- add core sets and reorganize the URL table
-- add Expansion Set Programs
+- add table with links to building instructions and pybricks V2 programs
 
 
 

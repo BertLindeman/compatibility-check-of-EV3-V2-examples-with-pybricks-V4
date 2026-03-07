@@ -1,16 +1,21 @@
 ### updates:
-`initial    BL` Checked against the beta version V4.0.0.b6
+`initial    BL` 
+- Checked against the beta version V4.0.0.b6
 
-`2026-02-26 BL` Check against version
-  ```('ev3', '4.0.0b6', 'ci-build-4741-v4.0.0b6-6-g368c02cc on 2026-02-23')```
+`2026-02-26 BL` 
+- Check against version ```('ev3', '4.0.0b6', 'ci-build-4741-v4.0.0b6-6-g368c02cc on 2026-02-23')```
 
-`2026-02-26 BL` Check against version
-  ```('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')```
+`2026-02-26 BL`
+- Check against version ```('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')```
 
-`2026-03-03 BL` Update rac3_truck compatibility
+`2026-03-03 BL` 
+- Update rac3_truck compatibility
 
-`2026-03-07 BL` add urls for Robot Educator Programs (not core sets)
-                add core sets and reorganize the URL table
+`2026-03-07 BL` 
+- add urls for Robot Educator Programs (not core sets)
+- add core sets and reorganize the URL table
+- add Expansion Set Programs
+
 
 
 ## Mindstorms EV3
@@ -70,11 +75,11 @@ Hard to do that in pybricks-UI.
 | - Line Following |  | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
 | **Core Set Programs** | [Core sets](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-core) |
 | - Color Sorter | | [Color sorter](https://pybricks.com/ev3-micropython/examples/color_sorter.html) |
-| - Robot Arm H25 | | [](https://pybricks.com/ev3-micropython/examples/robot_arm.html) |
+| - Robot Arm H25 | | [Robot arm H25](https://pybricks.com/ev3-micropython/examples/robot_arm.html) |
 | - Puppy | | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
 | - Gyro Boy | | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
-| **Expansion Set Programs** | ? |
-| Elephant | | ? |
-| Stair Climber | | ? |
-| Tank Bot | | ? |
-| Znap | | ? |
+| **Expansion Set Programs** | [Expansion Set Programs](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
+| Elephant | | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |
+| Stair Climber | | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
+| Tank Bot | | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |
+| Znap | | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |

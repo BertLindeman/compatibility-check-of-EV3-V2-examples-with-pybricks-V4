@@ -80,7 +80,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - wack3m           | [wack3m](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_WACK3M.pdf) | [wack3m](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/wack3m) |
 |   |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
-| - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
+| - Basic Movement | [driving base](https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltc8481dd2666822ff/5f8801e3f4f4cf0fa39d2fef/ev3-rem-driving-base.pdf?locale=en-us) | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
 | - Obstacle Avoidance | | [robot_educator_obstacle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
 | - Line Following |  | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
 |   |
@@ -90,13 +90,13 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - Puppy | | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
 | - Gyro Boy | | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
 |   |
-|   |
 | **Expansion Set Programs** | [Expansion Set](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
 | Elephant | | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |
 | Stair Climber | | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
 | Tank Bot | | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |
 | Znap | | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |
 
+---
 ---
 
 ### updates:

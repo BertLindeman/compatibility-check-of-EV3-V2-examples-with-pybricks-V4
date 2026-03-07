@@ -72,12 +72,10 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - ev3_d4           |  | []() |
 | - ev3-game         |  | []() |
 | - kraz3 | [](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | []() |
-
-|                     | mr-b3am          |                         | SoundFile  |
-|                     | rac3-truck       |  |          |
-|                     | robodoz3r        |                         |  SoundFile, play_file, time |
-|                     | wack3m           |                         | ~~ImageFile,~~ SoundFile, time     |
-
+| - mr-b3am          |  | []() |
+| - rac3-truck       |  | []() |
+| - robodoz3r        |  | []() |
+| - wack3m           |  | []() |
 | - ================== |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |

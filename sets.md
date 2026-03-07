@@ -69,15 +69,15 @@ Hard to do that in pybricks-UI.
 | **model** | **Building instructions** | **Program** |
 | :--- | :--- | :--- |
 | home-main | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) | |
-| - everstorm |  | []() |
-| - gripp3r |  | []() |
-| - r3ptar |  | []() |
-| - spik3r |  | []() |
-| - track3r_base |  | []() |	
-| - track3r with biblade_spinner |  | []() |	
-| - track3r with blasting_bazooka |  | []() |
-| - track3r with gripping_claw |  | []() |
-| - track3r with heavy_hammer |  | []() |
+| - everstorm |  | [everstorm](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/ev3rstorm) |
+| - gripp3r |  | [gripp3r](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/gripp3r) |
+| - r3ptar |  | [r3ptar](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/r3ptar) |
+| - spik3r |  | [spik3r](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/spik3r) |
+| - track3r_base |  | [track3r_base](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_base.py) |	
+| - track3r with biblade_spinner |  | [track3r with biblade_spinner](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_biblade_spinner.py) |	
+| - track3r with blasting_bazooka |  | [track3r with blasting_bazooka](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_blasting_bazooka.py) |
+| - track3r with gripping_claw |  | [track3r with gripping_claw](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_gripping_claw.py) |
+| - track3r with heavy_hammer |  | [track3r with heavy_hammer](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_heavy_hammer.py) |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
 | - Obstacle Avoidance | | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
@@ -94,3 +94,5 @@ Hard to do that in pybricks-UI.
 | Znap | | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |
 | **Home bonus** | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) |  
 | - kraz3 | [](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | []() |
+
+

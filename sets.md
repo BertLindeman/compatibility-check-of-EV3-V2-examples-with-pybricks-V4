@@ -50,8 +50,8 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |           | track3r with gripping_claw   | Needs build | SoundFile   |
 |           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |
 
-|     |
-| --- |
+---
+---
 
 ## Table with links to Building instructions and Pybricks programs
 | **model** | **Building instructions** | **Program** |

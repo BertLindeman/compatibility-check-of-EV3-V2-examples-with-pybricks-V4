@@ -68,7 +68,16 @@ Hard to do that in pybricks-UI.
 
 | **model** | **Building instructions** | **Program** |
 | :--- | :--- | :--- |
-| - everstorm | ? | ? |
+| home-main | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) | |
+| - everstorm |  | []() |
+| - gripp3r |  | []() |
+| - r3ptar |  | []() |
+| - spik3r |  | []() |
+| - track3r_base |  | []() |	
+| - track3r with biblade_spinner |  | []() |	
+| - track3r with blasting_bazooka |  | []() |
+| - track3r with gripping_claw |  | []() |
+| - track3r with heavy_hammer |  | []() |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
 | - Obstacle Avoidance | | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
@@ -83,3 +92,5 @@ Hard to do that in pybricks-UI.
 | Stair Climber | | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
 | Tank Bot | | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |
 | Znap | | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |
+| **Home bonus** | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) |  
+| - kraz3 | [](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | []() |

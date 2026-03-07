@@ -89,7 +89,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - Puppy | | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
 | - Gyro Boy | | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
 |   |
-| **Expansion Set Programs** | [Expansion Set Programs](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
+| **Expansion Set Programs** | [Expansion Set](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
 | Elephant | | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |
 | Stair Climber | | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
 | Tank Bot | | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |

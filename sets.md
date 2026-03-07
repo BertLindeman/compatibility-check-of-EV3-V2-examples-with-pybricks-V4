@@ -65,6 +65,20 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - track3r with blasting_bazooka |  | [track3r with blasting_bazooka](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_blasting_bazooka.py) |
 | - track3r with gripping_claw |  | [track3r with gripping_claw](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_gripping_claw.py) |
 | - track3r with heavy_hammer |  | [track3r with heavy_hammer](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_heavy_hammer.py) |
+| **Home bonus** | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) |  
+| - bobb3e           |  | []() |
+| - dinor3x          |  | []() |
+| - e13ctric-guitar  |  | []() |
+| - ev3_d4           |  | []() |
+| - ev3-game         |  | []() |
+| - kraz3 | [](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | []() |
+
+|                     | mr-b3am          |                         | SoundFile  |
+|                     | rac3-truck       |  |          |
+|                     | robodoz3r        |                         |  SoundFile, play_file, time |
+|                     | wack3m           |                         | ~~ImageFile,~~ SoundFile, time     |
+
+| - ================== |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
 | - Obstacle Avoidance | | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
@@ -79,9 +93,6 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | Stair Climber | | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
 | Tank Bot | | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |
 | Znap | | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |
-| **Home bonus** | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) |  
-| - kraz3 | [](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | []() |
-
 ---
 
 ### updates:

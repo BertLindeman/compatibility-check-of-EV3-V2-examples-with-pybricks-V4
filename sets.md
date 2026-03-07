@@ -24,7 +24,7 @@ Hard to do that in pybricks-UI.
 | **Group**           | **Model**         | **Pybricks V4 compatible** | **Missing** |
 |:--------------------|:------------------|:-----------------------|:---------|
 | education-core      | color sorter      |                         | ~~ImageFile,~~ SoundFile |
-|                     | gyro_boy         |                         |  ~~ucollections,  ImageFile,~~ SoundFile      |
+|                     | gyro_boy          |                         |  ~~ucollections,  ImageFile,~~ SoundFile      |
 |                     | puppy             |                         | ~~media~~ SoundFile        |
 |                     | robot arm         | YES                    |          |
 |                     | robot educator basic| Yes, but not built   |          |
@@ -58,3 +58,20 @@ Hard to do that in pybricks-UI.
 |           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |
 
 
+| **model** | **Building instructions** | **Program** |
+| :--- | :--- | :--- |
+| everstorm | ? | ? |
+| | **Robot Educator Programs** |
+| Basic Movement | [robot_educator_basic](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
+| Obstacle Avoidance | [robot_educator_obsticle avoidance](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
+| Line Following | [robot_educator_line following](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
+| | **Core Set Programs** |
+| Color Sorter | ? | ? |
+| Robot Arm H25 | ? | ? |
+| Puppy | ? | ? |
+| Gyro Boy | ? | ? |
+| | **Expansion Set Programs** |
+| Elephant | ? | ? |
+| Stair Climber | ? | ? |
+| Tank Bot | ? | ? |
+| Znap | ? | ? |

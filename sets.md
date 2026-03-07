@@ -9,6 +9,8 @@
 
 `2026-03-03 BL` Update rac3_truck compatibility
 
+`2026-03-07 BL` add urls for Robot Educator Programs (not core sets)
+
 
 ## Mindstorms EV3
 

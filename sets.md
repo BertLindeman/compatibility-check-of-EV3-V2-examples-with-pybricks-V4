@@ -85,10 +85,10 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - Line Following | [Line following](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-color-sensor-down-driving-base-d30ed30610c3d6647d56e17bc64cf6e2.pdf) | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
 |   |
 | **Core Set Programs** | [Core sets](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-core) |
-| - Color Sorter | | [Color sorter](https://pybricks.com/ev3-micropython/examples/color_sorter.html) |
-| - Robot Arm H25 | | [Robot arm H25](https://pybricks.com/ev3-micropython/examples/robot_arm.html) |
-| - Puppy | | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
-| - Gyro Boy | | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
+| - Color Sorter | [Color sorter](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-model-core-set-color-sorter-c778563f88c986841453574495cb5ff1.pdf) | [Color sorter](https://pybricks.com/ev3-micropython/examples/color_sorter.html) |
+| - Robot Arm H25 | [Robot Arm](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-model-core-set-robot-arm-h25-56cdb22c1e3a02f1770bda72862ce2bd.pdf) | [Robot arm H25](https://pybricks.com/ev3-micropython/examples/robot_arm.html) |
+| - Puppy | [Puppy](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-model-core-set-puppy-7a316ae71b8ecdcd72ad4c4bcd15845d.pdf) | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
+| - Gyro Boy | [Gyro boy](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-model-core-set-gyro-boy-f8a14d8e3d0e63fa23b87f798bf197f4.pdf) | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
 |   |
 | **Expansion Set Programs** | [Expansion Set](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
 | Elephant | | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |

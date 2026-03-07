@@ -59,12 +59,12 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - everstorm | [everstorm](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EV3RSTORM.pdf) | [everstorm](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/ev3rstorm) |
 | - gripp3r | [gripper](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_GRIPP3R.pdf) | [gripp3r](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/gripp3r) |
 | - r3ptar | [r3ptar](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_R3PTAR.pdf) | [r3ptar](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/r3ptar) |
-| - spik3r |  | [spik3r](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/spik3r) |
-| - track3r_base |  | [track3r_base](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_base.py) |	
-| - track3r with biblade_spinner |  | [track3r with biblade_spinner](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_biblade_spinner.py) |	
-| - track3r with blasting_bazooka |  | [track3r with blasting_bazooka](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_blasting_bazooka.py) |
-| - track3r with gripping_claw |  | [track3r with gripping_claw](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_gripping_claw.py) |
-| - track3r with heavy_hammer |  | [track3r with heavy_hammer](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_heavy_hammer.py) |
+| - spik3r | [spik3r](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_SPIK3R.pdf) | [spik3r](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-main/spik3r) |
+| - track3r_base | [track3r](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_TRACK3R.pdf) | [track3r_base](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_base.py) |	
+| - track3r with biblade_spinner | see track3r_base | [track3r with biblade_spinner](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_biblade_spinner.py) |	
+| - track3r with blasting_bazooka | see track3r_base | [track3r with blasting_bazooka](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_blasting_bazooka.py) |
+| - track3r with gripping_claw | see track3r_base | [track3r with gripping_claw](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_gripping_claw.py) |
+| - track3r with heavy_hammer | see track3r_base | [track3r with heavy_hammer](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_heavy_hammer.py) |
 |   |
 | **Home bonus** | [set 31313 all models](https://www.lego.com/en-us/service/building-instructions/31313) |  
 | - bobb3e           | [bobb3e](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_BOBB3E.pdf) | []() |

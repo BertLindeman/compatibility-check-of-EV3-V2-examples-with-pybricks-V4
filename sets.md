@@ -1,16 +1,19 @@
 
 # Mindstorms EV3
 
-[EV3 Example sets from mindstorms-ev3](
+Link to [Pybricks EV3 Examples for mindstorms-ev3](
 https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 
 1. Some projects have a program rc_tank_util.py that is included, they are not **all** the same.
-Hard to do that in pybricks-UI.
+    - Hard to do that in pybricks-UI.
 2. breaking changes:
     - import from  ```pybricks.media.ev3dev``` is now ```pybricks.parameters```
-      In the stable version this is supposed to be compatible again.
+      - In the stable version this will to be compatible again.
+
+---
 
 ## Compatibility
+
 | **Group**           | **Model**         | **Pybricks V4 compatible** | **Missing** |
 |:--------------------|:------------------|:-----------------------|:---------|
 | education-core      | color sorter      |                         | ~~ImageFile,~~ SoundFile |
@@ -47,7 +50,9 @@ Hard to do that in pybricks-UI.
 |           | track3r with gripping_claw   | Needs build | SoundFile   |
 |           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |
 
-## Table with links t0 Building instructions and Pybricks programs
+---
+
+## Table with links to Building instructions and Pybricks programs
 | **model** | **Building instructions** | **Program** |
 | :--- | :--- | :--- |
 | home-main | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) | |
@@ -77,6 +82,7 @@ Hard to do that in pybricks-UI.
 | **Home bonus** | [set 31313](https://www.lego.com/en-us/service/building-instructions/31313) |  
 | - kraz3 | [](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | []() |
 
+---
 
 ### updates:
 `initial    BL` 

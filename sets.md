@@ -91,10 +91,10 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - Gyro Boy | [Gyro boy](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-model-core-set-gyro-boy-f8a14d8e3d0e63fa23b87f798bf197f4.pdf) | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
 |   |
 | **Expansion Set Programs** | [Expansion Set](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
-| Elephant | | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |
-| Stair Climber | | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
-| Tank Bot | | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |
-| Znap | | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |
+| Elephant | [Elephant](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/model-expansion-set/ev3-model-expansion-set-elephant-3c8304efe699169ffe82b85cb01a01cb.pdf) | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |
+| Stair Climber | [Stair Climber](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/model-expansion-set/ev3-model-expansion-set-stair-climber-8f4d9f19b87fa2e37e28aebe2b24486b.pdf) | [Stair climber](https://pybricks.com/ev3-micropython/examples/stair_climber.html) |
+| Tank Bot | [Tank Bot](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/model-expansion-set/ev3-model-expansion-set-tank-bot-006a7f22d89c631c1d49fa27eccaf290.pdf) | [Tank bot](https://pybricks.com/ev3-micropython/examples/tank_bot.html) |
+| Znap | [Znap](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/model-expansion-set/ev3-model-expansion-set-znap-71b712c154ffb81ace8bf73384f2197c.pdf) | [Znap](https://pybricks.com/ev3-micropython/examples/znap.html) |
 
 ---
 ---

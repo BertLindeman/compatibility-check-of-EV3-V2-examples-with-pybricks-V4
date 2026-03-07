@@ -10,6 +10,7 @@
 `2026-03-03 BL` Update rac3_truck compatibility
 
 `2026-03-07 BL` add urls for Robot Educator Programs (not core sets)
+                add core sets and reorganize the URL table
 
 
 ## Mindstorms EV3
@@ -62,18 +63,18 @@ Hard to do that in pybricks-UI.
 
 | **model** | **Building instructions** | **Program** |
 | :--- | :--- | :--- |
-| everstorm | ? | ? |
-| | **Robot Educator Programs** |
-| Basic Movement | [robot_educator_basic](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
-| Obstacle Avoidance | [robot_educator_obsticle avoidance](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
-| Line Following | [robot_educator_line following](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
-| | **Core Set Programs** |
-| Color Sorter | ? | ? |
-| Robot Arm H25 | ? | ? |
-| Puppy | ? | ? |
-| Gyro Boy | ? | ? |
-| | **Expansion Set Programs** |
-| Elephant | ? | ? |
-| Stair Climber | ? | ? |
-| Tank Bot | ? | ? |
-| Znap | ? | ? |
+| - everstorm | ? | ? |
+| **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
+| - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
+| - Obstacle Avoidance | | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
+| - Line Following |  | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
+| **Core Set Programs** | [Core sets](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-core) |
+| - Color Sorter | | [Color sorter](https://pybricks.com/ev3-micropython/examples/color_sorter.html) |
+| - Robot Arm H25 | | [](https://pybricks.com/ev3-micropython/examples/robot_arm.html) |
+| - Puppy | | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
+| - Gyro Boy | | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
+| **Expansion Set Programs** | ? |
+| Elephant | | ? |
+| Stair Climber | | ? |
+| Tank Bot | | ? |
+| Znap | | ? |

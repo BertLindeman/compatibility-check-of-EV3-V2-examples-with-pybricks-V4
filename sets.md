@@ -80,7 +80,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |   |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
-| - Obstacle Avoidance | | [robot_educator_obsticle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
+| - Obstacle Avoidance | | [robot_educator_obstacle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
 | - Line Following |  | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
 |   |
 | **Core Set Programs** | [Core sets](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-core) |
@@ -88,6 +88,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - Robot Arm H25 | | [Robot arm H25](https://pybricks.com/ev3-micropython/examples/robot_arm.html) |
 | - Puppy | | [Pyppy](https://pybricks.com/ev3-micropython/examples/puppy.html) |
 | - Gyro Boy | | [Gyro boy](https://pybricks.com/ev3-micropython/examples/gyro_boy.html) |
+|   |
 |   |
 | **Expansion Set Programs** | [Expansion Set](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion) |
 | Elephant | | [Elephant](https://pybricks.com/ev3-micropython/examples/elephant.html) |

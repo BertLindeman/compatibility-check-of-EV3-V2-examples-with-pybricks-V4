@@ -67,16 +67,16 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | - track3r with heavy_hammer | see track3r_base | [track3r with heavy_hammer](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/home-main/track3r/track3r_with_heavy_hammer.py) |
 |   |
 | **Home bonus** | [set 31313 all models](https://www.lego.com/en-us/service/building-instructions/31313) |  
-| - bobb3e           | [bobb3e](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_BOBB3E.pdf) | [bobbo3e]() |
-| - dinor3x          | [dinor3x](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_DINOREX.pdf) | [dinor3x]() |
-| - e13ctric-guitar  | [e13ctric-guitar](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EL3CTRIC%20GUITAR.pdf) | [e13ctric-guitar]() |
-| - ev3_d4           | [ev3_d4](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EV3D4.pdf) | [ev3_d4]() |
-| - ev3-game         | [ev3 game](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EV3%20GAME.pdf) | [ev3 game]() |
-| - kraz3 | [kraz3](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | [kraz3]() |
-| - mr-b3am          | [mr-b3am](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_MR%20B3AM.pdf) | [mr b3am]() |
-| - rac3-truck       | [rac3-truck](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_RAC3%20TRUCK.pdf) | [rac3-truck]() |
-| - robodoz3r        | [robodoz3r](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_ROBODOZ3R.pdf) | [robodoz3r]() |
-| - wack3m           | [wack3m](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_WACK3M.pdf) | [wack3m]() |
+| - bobb3e           | [bobb3e](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_BOBB3E.pdf) | [bobbo3e](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/bobb3e) |
+| - dinor3x          | [dinor3x](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_DINOREX.pdf) | [dinor3x](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/dinor3x) |
+| - e13ctric-guitar  | [e13ctric-guitar](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EL3CTRIC%20GUITAR.pdf) | [e13ctric-guitar](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/el3ctric-guitar) |
+| - ev3_d4           | [ev3_d4](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EV3D4.pdf) | [ev3_d4](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/ev3-d4) |
+| - ev3-game         | [ev3 game](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_EV3%20GAME.pdf) | [ev3 game](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/ev3-game) |
+| - kraz3 | [kraz3](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_KRAZ3.pdf) | [kraz3](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/kraz3) |
+| - mr-b3am          | [mr-b3am](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_MR%20B3AM.pdf) | [mr b3am](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/mr-b3am) |
+| - rac3-truck       | [rac3-truck](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_RAC3%20TRUCK.pdf) | [rac3-truck](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/rac3-truck) |
+| - robodoz3r        | [robodoz3r](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_ROBODOZ3R.pdf) | [robodoz3r](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/robodoz3r) |
+| - wack3m           | [wack3m](https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/31313_X_WACK3M.pdf) | [wack3m](https://github.com/pybricks/pybricks-projects/tree/master/sets/mindstorms-ev3/home-bonus/wack3m) |
 |   |
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement |  | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |

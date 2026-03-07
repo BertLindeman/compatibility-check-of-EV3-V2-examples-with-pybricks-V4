@@ -82,7 +82,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | **Robot Educator Programs** | [robot_educator](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot) |
 | - Basic Movement | [driving base](https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltc8481dd2666822ff/5f8801e3f4f4cf0fa39d2fef/ev3-rem-driving-base.pdf?locale=en-us) | [robot_educator_basic](https://pybricks.com/ev3-micropython/examples/robot_educator_basic.html) |
 | - Obstacle Avoidance | [Obstacle avoidance](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-ultrasonic-sensor-driving-base-61ffdfa461aee2470b8ddbeab16e2070.pdf)| [robot_educator_obstacle avoidance](https://pybricks.com/ev3-micropython/examples/robot_educator_ultrasonic.html) |
-| - Line Following |  | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
+| - Line Following | [Line following](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-color-sensor-down-driving-base-d30ed30610c3d6647d56e17bc64cf6e2.pdf) | [robot_educator_line following](https://pybricks.com/ev3-micropython/examples/robot_educator_line.html) |
 |   |
 | **Core Set Programs** | [Core sets](https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-core) |
 | - Color Sorter | | [Color sorter](https://pybricks.com/ev3-micropython/examples/color_sorter.html) |

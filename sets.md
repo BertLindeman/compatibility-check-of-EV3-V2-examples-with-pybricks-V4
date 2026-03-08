@@ -4,11 +4,12 @@
 Link to [Pybricks EV3 Examples for mindstorms-ev3](
 https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 
-1. Some projects have a program rc_tank_util.py that is included, they are not **all** the same.
+1. Some projects have a program `rc_tank_util.py` that is included, they are not **all** the same.
     - Hard to do that in pybricks-UI.
+
 2. breaking changes:
     - import from  ```pybricks.media.ev3dev``` is now ```pybricks.parameters```
-      - In the stable version this will to be compatible again.
+      - In the stable pybricks V4 version this will to be compatible again.
 
 ---
 

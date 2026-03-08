@@ -21,18 +21,18 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |                     | gyro_boy          |                         |  ~~ucollections,  ImageFile,~~ SoundFile      |
 |                     | puppy             |                         | ~~media~~ SoundFile        |
 |                     | robot arm         | YES                    |          |
-|                     | robot educator basic| Yes, but not built   |          |
-|                     | robot educator line| Yes, but not built    |          |
-|                     | robot educator ultrasonic| Yes, but not built  |          |
+|                     | robot educator basic| Yes, but not built yet  |          |
+|                     | robot educator line| Yes, but not built tyet   |          |
+|                     | robot educator ultrasonic| Yes, but not built yet |          |
 |  |  |  |  |
 | education-expansion | elephant          |                         | SoundFile |
 |                     | stair climber     |                         | ~~Font,~~ SoundFile        |
-|                     | tank bot          | No syntax error, needs build test | ~~ImageFile~~     |
+|                     | tank bot          | Yes, but not built yet | ~~ImageFile~~     |
 |                     | znap              |                         |  SoundFile    |
 |  |  |  |  |
 | home-bonus          | bobb3e           |                         | SoundFile  |
 |                     | dinor3x          |                         | SoundFile  |
-|                     | e13ctric-guitar  | No syntax error, needs build test | ~~ImageFile~~  |
+|                     | e13ctric-guitar  | Yes, but not built yet | ~~ImageFile~~  |
 |                     | ev3_d4           |                         | threading, SoundFile |
 |                     | ev3-game         |                         | SoundFile |
 |                     | kraz3            |                         | run_parallel, SoundFile |
@@ -47,8 +47,8 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |           | spik3r    |                         | ~~ImageFile,~~ SoundFile    |
 |           | track3r_base   |  No syntax error, is imported    |          |
 |           | track3r with biblade_spinner | YES     |          |
-|           | track3r with blasting_bazooka   | Needs build  | ~~ImageFile,~~ SoundFile    |
-|           | track3r with gripping_claw   | Needs build | SoundFile   |
+|           | track3r with blasting_bazooka   | Yes, but not built yet  | ~~ImageFile,~~ SoundFile    |
+|           | track3r with gripping_claw   | Neeeds build | SoundFile   |
 |           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |
 
 ---

@@ -1,12 +1,11 @@
-Attempt to verify the EV3 V2 python syntax and examples for sets are pybricks V4 compatible.
-
-Based upon the sets in:
-- [EV3 Example sets from mindstorms-ev3](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
+Verify the EV3 pybricks V2 python syntax and examples for sets are pybricks V4 compatible.
 
 ### Files:
-- File **sets.md** describe the compatibility of the sets.
+- File `sets.md` describe the compatibility of the sets.
+    - Based upon the sets in:
+        - [EV3 Example sets from mindstorms-ev3](https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 
-- File **syntax.md** describe the compatibility of the syntax documentation.
+- The file `syntax.md` describe the compatibility with [Pybricks EV3 V2 syntax documentation](https://pybricks.com/ev3-micropython/index.html).
 
-- Files `V2_syntax *.py` are the test programs for that part of the syntax documents.
+- The files `V2_syntax_*.py` are the test programs for that part of the syntax documents.
 

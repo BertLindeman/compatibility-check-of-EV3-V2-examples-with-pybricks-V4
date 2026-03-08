@@ -20,10 +20,10 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 | education-core      | color sorter      |                         | ~~ImageFile,~~ SoundFile |
 |                     | gyro_boy          |                         |  ~~ucollections,  ImageFile,~~ SoundFile      |
 |                     | puppy             |                         | ~~media~~ SoundFile        |
-|                     | robot arm         | YES                    |          |
-|                     | robot educator basic| Yes, but not built yet  |          |
-|                     | robot educator line| Yes, but not built tyet   |          |
-|                     | robot educator ultrasonic| Yes, but not built yet |          |
+|                     | robot arm         | $\color{green}{\\textsf{YES}}$  |          |
+|                     | robot educator basic| $\color{green}{\\textsf{YES}}$ |          |
+|                     | robot educator line| $\color{green}{\\textsf{YES}}$ |          |
+|                     | robot educator ultrasonic| $\color{green}{\\textsf{YES}}$ |          |
 |  |  |  |  |
 | education-expansion | elephant          |                         | SoundFile |
 |                     | stair climber     |                         | ~~Font,~~ SoundFile        |
@@ -37,7 +37,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |                     | ev3-game         |                         | SoundFile |
 |                     | kraz3            |                         | run_parallel, SoundFile |
 |                     | mr-b3am          |                         | SoundFile  |
-|                     | rac3-truck       | YES, only need to adapt settings of the steering calibration depending on type of floor |          |
+|                     | rac3-truck       | $\color{green}{\\textsf{YES}}$, only need to adapt settings of the steering calibration depending on type of floor |          |
 |                     | robodoz3r        |                         |  SoundFile, play_file, time |
 |                     | wack3m           |                         | ~~ImageFile,~~ SoundFile, time     |
 |  |  |  |  |
@@ -46,7 +46,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |           | r3ptar    |                         |  SoundFile |
 |           | spik3r    |                         | ~~ImageFile,~~ SoundFile    |
 |           | track3r_base   |  No syntax error, is imported    |          |
-|           | track3r with biblade_spinner | YES     |          |
+|           | track3r with biblade_spinner | $\color{green}{\\textsf{YES}}$     |          |
 |           | track3r with blasting_bazooka   | Needs build  | ~~ImageFile,~~ SoundFile    |
 |           | track3r with gripping_claw   | Neeeds build | SoundFile   |
 |           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |

@@ -47,7 +47,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |           | spik3r    |                         | ~~ImageFile,~~ SoundFile    |
 |           | track3r_base   |  No syntax error, is imported    |          |
 |           | track3r with biblade_spinner | YES     |          |
-|           | track3r with blasting_bazooka   | Yes, but not built yet  | ~~ImageFile,~~ SoundFile    |
+|           | track3r with blasting_bazooka   | Needs build  | ~~ImageFile,~~ SoundFile    |
 |           | track3r with gripping_claw   | Neeeds build | SoundFile   |
 |           | track3r with heavy_hammer   | Needs build     |  ~~ImageFile,~~ SoundFile  |
 

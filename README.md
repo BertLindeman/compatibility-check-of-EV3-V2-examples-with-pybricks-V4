@@ -1,5 +1,7 @@
 Verify the EV3 pybricks V2 python syntax and examples for sets are pybricks V4 compatible.
 
+After this repo is ready, need to update [pybricks discussion entry in pybricks repo](https://github.com/orgs/pybricks/discussions/2573)
+
 ### Files:
 - File `sets.md` describe the compatibility of the sets.
     - Based upon the sets in:

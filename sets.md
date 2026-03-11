@@ -27,7 +27,7 @@ https://github.com/pybricks/pybricks-projects/blob/master/sets/mindstorms-ev3/)
 |  |  |  |  |
 | education-expansion | elephant          |                         | SoundFile |
 |                     | stair climber     |                         | ~~Font,~~ SoundFile        |
-|                     | tank bot          | Yes, but not built yet | ~~ImageFile~~     |
+|                     | tank bot          | Almost, No `ImageFile.QUESTION_MARK` | ~~ImageFile~~     |
 |                     | znap              |                         |  SoundFile    |
 |  |  |  |  |
 | home-bonus          | bobb3e           |                         | SoundFile  |

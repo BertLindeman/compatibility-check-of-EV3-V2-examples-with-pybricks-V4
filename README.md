@@ -1,4 +1,4 @@
-Verify the EV3 pybricks V2 python syntax and examples for sets are pybricks V4 compatible.
+Verify that the EV3 pybricks V2 python syntax and examples are pybricks V4 compatible.
 
 After this repo is ready, need to update [pybricks discussion entry in pybricks repo](https://github.com/orgs/pybricks/discussions/2573)
 

@@ -20,19 +20,24 @@ try:
     dev = LUMPDevice(port)
         # Description: Devices using the LEGO UART Messaging Protocol.
 
+    try:
+        dev.read(mode) 
+            # Description: Reads values at a given mode.
+
+        dev.write(mode,values) 
+            # Description: Writes values to the sensor. Only selected sensors and modes support this.
+        wait(500)
+    except Exception as e:
+        print(f"\tNot supported: {'LUMPDevice':<20} read/write \t{e}\n")
+
+except OSError as ex:
+    if ex.args[0] == ENODEV:
+        # No device found on this port.
+        print(f"\tNo LUMPDevice on {port}")
+    else:
+        print(f"\tNot supported: {'LUMPDevice':<20} \t{e}\n")
 except Exception as e:
     print(f"\tNot supported: {'LUMPDevice':<20} \t{e}\n")
-
-try:
-    dev.read(mode) 
-        # Description: Reads values at a given mode.
-
-    dev.write(mode,values) 
-        # Description: Writes values to the sensor. Only selected sensors and modes support this.
-    wait(500)
-except Exception as e:
-    print(f"\tNot supported: {'LUMPDevice':<20} read/write \t{e}\n")
-
 
 # class AnalogSensor(port) 
 # Description: Generic or custom analog sensor.
@@ -60,7 +65,6 @@ except OSError as ex:
         print(f"\tNo AnalogSensor on {port}")
     else:
         print(f"\tNot supported: {'AnalogSensor':<20} \t{e}\n")
-
 
 
 # class I2CDevice(port,address) 
@@ -93,34 +97,34 @@ except Exception as e:
 # Description: Generic UART device.
 baudrate = 2400
 try:
-    UARTdev = UARTDevice(port,baudrate,timeout=None)
-	# Description: Generic UART device.
+    UARTdev = UARTDevice(port,baudrate,timeout=5000)
+    try:
+        # Description: Generic UART device.
+        UARTdev.read(length=1) 
+        # Description: Reads a given number of bytes from the buffer.
 
-    UARTdev.read(length=1) 
-	# Description: Reads a given number of bytes from the buffer.
+        UARTdev.read_all() 
+        # Description: Reads all bytes from the buffer.
 
-    UARTdev.read_all() 
-	# Description: Reads all bytes from the buffer.
+        UARTdev.write(data) 
+        # Description: Writes bytes.
 
-    UARTdev.write(data) 
-	# Description: Writes bytes.
+        UARTdev.waiting() 
+        # Description: Gets how many bytes are still waiting to be read.
 
-    UARTdev.waiting() 
-	# Description: Gets how many bytes are still waiting to be read.
+        UARTdev.clear() 
+        # Description: Empties the buffer.
 
-    UARTdev.clear() 
-	# Description: Empties the buffer.
-
-    wait(500)
-except Exception as e:
-    print(f"\tNot supported: {'UARTDevice':<20} \t{e}\n")
+        wait(500)
+    except Exception as e:
+        print(f"\tNot supported: {'UARTDevice':<20} \t{e}\n")
 
 except OSError as ex:
     if ex.args[0] == ENODEV:
         # No device found on this port.
         print(f"\tNo UARTDevice on {port}")
     else:
-        print(f"\tNot supported: {'UARTDevice':<20} \t{e}\n")
+        print(f"\tNot supported: {'UARTDevice':<20} \t{ex}\n")
 
 except Exception as e:
     print(f"\tNot supported: {'UARTDevice':<20} \t{e}\n")
@@ -147,7 +151,7 @@ except OSError as ex:
         # No device found on this port.
         print(f"\tNo DCdev on {port}")
     else:
-        print(f"\tNot supported: {'DCdev':<20} \t{e}\n")
+        print(f"\tNot supported: {'DCdev':<20} \t{ex}\n")
 
 except Exception as e:
     print(f"\tNot supported: {'DCdev':<20} \t{e}\n")
@@ -172,5 +176,3 @@ try:
         print(f"\tNot supported: {'Ev3devSensor':<20} functions \t{e}\n")
 except ImportError:
     print("\tNot supported import: Ev3devDensor")
-
-

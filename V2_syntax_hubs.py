@@ -77,21 +77,37 @@ hub.screen.print("\nPlop", text ,sep='\t',end='\n')
 wait(1000)
 
 try:
-    # was: from pybricks.media.ev3dev import Font
-    from pybricks.parameters import Font
-    tiny_font = Font(size=6)
-    big_font = Font(size=24, bold=True)
-    chinese_font = Font(size=24, lang='zh-cn')
-    hub.screen.set_font(font)
-    #	Description: Sets the font used for writing on the screen.
-    wait(250)
+    from pybricks.media.ev3dev import Font
 except:
-    print(f"\tNot supported: hub.speaker.set_font")
+    print("\tImportError: no module 'pybricks.media.ev3dev' use 'pybricks.parameters'")
+    from pybricks.parameters import Font
+
+try:
+    tiny_font = Font(size=6)
+except Exception as ex:
+    print(f"\tNot supported: Font(size=6): {ex}")
+
+try:
+    big_font = Font(size=24, bold=True)
+except Exception as ex:
+    print(f"\tNot supported: Font(size=24, bold=True): {ex}")
+
+try:
+    chinese_font = Font(size=24, lang='zh-cn')
+except Exception as ex:
+    print(f"\tNot supported: Font(size=24, lang='zh-cn'): {ex}")
+
+try:
+    hub.screen.set_font(Font.TERMINUS_16)
+    hub.screen.print("Font.TERMINUS_16")
+    wait(500)
+except Exception as ex:
+    print(f"\tNot supported: hub.screen.set_font: {ex}")
+wait(250)
 
 try:
     from pybricks.media.ev3dev import Image, ImageFile
 except ImportError:
-    print("\tImportError: no module named 'pybricks.media.ev3dev' use parameters")
     from pybricks.parameters import Image, ImageFile
 
 try:
@@ -102,10 +118,14 @@ except ImportError:
     from pybricks.parameters import Image, ImageFile
 
 try:
-    source = Image(ImageFile.EV3_ICON)
-    hub.screen.load_image(source)
+    source = Image(ImageFile._WRENCH17)
+    try:
+        hub.screen.load_image(source)
+    except:
+        print(f"\tNot supported: hub.screen.load_image")
 except:
-    print(f"\tNot supported: hub.screen.load_image")
+    print(f"\tNot supported: `source = Image(ImageFile._WRENCH17)`")
+    print(f"\tNot TESTED:     hub.screen.load_image")
 
 try:
     hub.screen.draw_image(x,y,source,transparent=None)

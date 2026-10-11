@@ -152,12 +152,12 @@ done on ('ev3', '4.1.0b6', 'ci-build-5095-v4.1.0b6-6-g81c1fa1e6 on 2026-10-09')
 
 Report of errors:
 ```
-        Not supported: LUMPDevice           read/write  Mode not writable
-
+        No LUMPDevice on Port.S4
         No AnalogSensor on Port.S4
         No I2CDevice on Port.S4
         No DCdev on Port.S4
-        Not supported import: Ev3devSensor
+        Not supported import: Ev3devDensor
+
 ```
 
 

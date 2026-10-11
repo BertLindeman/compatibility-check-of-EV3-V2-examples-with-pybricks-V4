@@ -41,14 +41,14 @@ ImageFile = try_import("ImageFile", OLD, NEW)
 
 if ImageFile is not None:
     try:
-        names = [n for n in dir(ImageFile) if not n.startswith("_")]
+        names = [n for n in dir(ImageFile) if not n.startswith("__")]
         print(f"  Found {len(names)} ImageFile entries\n")
         for name in names:
             hub.screen.clear()
             image = getattr(ImageFile, name)
             print(f"  Showing ImageFile.{name}")
             hub.screen.print(name)
-            x, y = (0, 0) if name == "PYBRICKS_JOIN" else (40, 50)
+            x, y = (0, 0) if name == "_PYBRICKS_JOIN" else (20, 20)
 
             try:
                 hub.screen.draw_image(x, y, image)          # V4 positional
@@ -137,7 +137,7 @@ SoundFile = try_import("SoundFile", OLD, NEW)
 
 if SoundFile is not None:
     try:
-        names = [n for n in dir(SoundFile) if not n.startswith("_")]
+        names = [n for n in dir(SoundFile) if not n.startswith("__")]
         print(f"  Found {len(names)} SoundFile entries:")
         for n in names:
             print(f"    SoundFile.{n}")
@@ -214,4 +214,3 @@ else:
 
 # ── Done ──────────────────────────────────────────────────────
 print("\n=== Syntax check complete ===")
-

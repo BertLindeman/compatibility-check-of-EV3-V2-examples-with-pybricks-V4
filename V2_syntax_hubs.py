@@ -9,7 +9,7 @@ hub = EV3Brick()
 color = Color.GREEN  # EV3 only has RED GREEN and ORANGE
 notes = ['C4/4', 'C4/4', 'G4/4', 'G4/4']
 
-print(hub.buttons.pressed())
+print("Buttons pressed", hub.buttons.pressed())
 #	Description: Checks which buttons are currently pressed.
 wait(250)
 
@@ -161,11 +161,11 @@ hub.screen.draw_circle(x,y,r,fill=True,color=Color.BLACK)
 #	Description: Draws a circle on the screen.
 wait(1000)
 
-print("hub.screen.width", hub.screen.width)
+hub.screen.print("hub.screen.width", hub.screen.width)
 #	Description: Gets the width of the screen in pixels.
 wait(250)
 
-print("hub.screen.height", hub.screen.height)
+hub.screen.print("hub.screen.height", hub.screen.height)
 #	Description: Gets the height of the screen in pixels.
 wait(250)
 
@@ -176,11 +176,11 @@ try:
 except:
     print(f"\tNot supported: hub.screen.save")
 
-print("hub.battery.voltage():", hub.battery.voltage(), "mV")
+hub.screen.print("hub.battery.voltage():", hub.battery.voltage(), "mV")
 #	Description: Gets the voltage of the battery.
 wait(250)
 
-print("hub.battery.current():", hub.battery.current(), "mA")
+hub.screen.print("hub.battery.current():", hub.battery.current(), "mA")
 #	Description: Gets the current supplied by the battery.
 wait(250)
 

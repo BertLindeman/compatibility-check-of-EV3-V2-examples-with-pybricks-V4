@@ -166,24 +166,60 @@ Report of errors:
 
 Report of errors:
 ```
-Pybricks version: ('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')
+Pybricks version: ('ev3', '4.1.0b6', 'ci-build-5095-v4.1.0b6-6-g81c1fa1e6 on 2026-10-09')
 
 === 01 ImageFile ===
   [ImageFile] loaded from pybricks.parameters
-  Found 8 ImageFile entries
+  Found 44 ImageFile entries
 
-  Showing ImageFile.ACCEPT24
-  Showing ImageFile.ACCEPT24_FILL
-  Showing ImageFile.OFF20
-  Showing ImageFile.PYBRICKS_JOIN
-  Showing ImageFile.REJECT24
-  Showing ImageFile.REJECT24_FILL
-  Showing ImageFile.USB_HOST
-  Showing ImageFile.WRENCH17
+  Showing ImageFile._ACCEPT24
+  Showing ImageFile._ACCEPT24_FILL
+  Showing ImageFile._APP_IR_CONTROL_12
+  Showing ImageFile._APP_IR_CONTROL_34
+  Showing ImageFile._APP_MOTOR_CONTROL_AD
+  Showing ImageFile._APP_MOTOR_CONTROL_BC
+  Showing ImageFile._BT_HOST
+  Showing ImageFile._GAMEPAD_SMALL
+  Showing ImageFile._OFF20
+  Showing ImageFile._PORT_VIEW_EMPTY
+  Showing ImageFile._PORT_VIEW_EV3_COLOR_AMBIENT
+  Showing ImageFile._PORT_VIEW_EV3_COLOR_COLOR
+  Showing ImageFile._PORT_VIEW_EV3_COLOR_REFLECTION
+  Showing ImageFile._PORT_VIEW_EV3_GYRO
+  Showing ImageFile._PORT_VIEW_EV3_IR_BEACON
+  Showing ImageFile._PORT_VIEW_EV3_IR_BUTTON
+  Showing ImageFile._PORT_VIEW_EV3_IR_PROXIMITY
+  Showing ImageFile._PORT_VIEW_EV3_MOTOR_LARGE
+  Showing ImageFile._PORT_VIEW_EV3_MOTOR_MEDIUM
+  Showing ImageFile._PORT_VIEW_EV3_TOUCH
+  Showing ImageFile._PORT_VIEW_EV3_ULTRASONIC
+  Showing ImageFile._PORT_VIEW_NXT_COLOR_AMBIENT
+  Showing ImageFile._PORT_VIEW_NXT_COLOR_COLOR
+  Showing ImageFile._PORT_VIEW_NXT_COLOR_REFLECTION
+  Showing ImageFile._PORT_VIEW_NXT_LIGHT_AMBIENT
+  Showing ImageFile._PORT_VIEW_NXT_LIGHT_REFLECTION
+  Showing ImageFile._PORT_VIEW_NXT_SOUND
+  Showing ImageFile._PORT_VIEW_P0_BOTTOM
+  Showing ImageFile._PORT_VIEW_P0_TOP
+  Showing ImageFile._PORT_VIEW_P1
+  Showing ImageFile._PORT_VIEW_P2
+  Showing ImageFile._PORT_VIEW_P3
+  Showing ImageFile._PORT_VIEW_P4
+  Showing ImageFile._PORT_VIEW_PA
+  Showing ImageFile._PORT_VIEW_PB
+  Showing ImageFile._PORT_VIEW_PC
+  Showing ImageFile._PORT_VIEW_PD
+  Showing ImageFile._PYBRICKS_JOIN
+  Showing ImageFile._REJECT24
+  Showing ImageFile._REJECT24_FILL
+  Showing ImageFile._ROTATE_CCW18
+  Showing ImageFile._ROTATE_CW18
+  Showing ImageFile._USB_HOST
+  Showing ImageFile._WRENCH17
 
 === 02 Image ===
   [Image] loaded from pybricks.parameters
-  Image size: 17 x 17
+  Image size: 24 x 16
   draw_text         OK
   draw_pixel        OK
   draw_line         OK

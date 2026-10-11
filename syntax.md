@@ -139,11 +139,12 @@ Report of errors:
         Not supported: hub.speaker.say 
         Not supported: hub.speaker.set_speech_options 
         Not supported: hub.speaker.set_volume - use hub.speaker.volume(nn)
-        Not supported: hub.speaker.set_font
-        ImportError: no module named 'pybricks.media.ev3dev' use parameters
-        Not supported: hub.screen.load_image
-        Not supported: hub.screen.draw_image
+        ImportError: no module 'pybricks.media.ev3dev' use 'pybricks.parameters'
+        Not supported: Font(size=6): can't create 'Font' instances
+        Not supported: Font(size=24, bold=True): can't create 'Font' instances
+        Not supported: Font(size=24, lang='zh-cn'): can't create 'Font' instances
         Not supported: hub.screen.save
+done on ('ev3', '4.1.0b6', 'ci-build-5095-v4.1.0b6-6-g81c1fa1e6 on 2026-10-09')
 ```
 
 ## iodevices

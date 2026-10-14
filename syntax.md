@@ -258,8 +258,6 @@ report of errors:
 ```
         Not supported: BluetoothMailboxServer can't import name BluetoothMailboxServer
 
-        Not supported: BluetoothMailboxClient can't import name BluetoothMailboxClient
-
         Not supported: BluetoothMailboxServer can't import name Mailbox
 
         Not supported: LogicMailbox           can't import name LogicMailbox

@@ -4,6 +4,8 @@
 # import fallbacks for ImageFile, Image, SoundFile, Font
 # ============================================================
 
+DETAILS = False  # print positive result (True) or not (False)
+
 from pybricks import version
 print(f"Pybricks version: {version}\n")
 
@@ -19,14 +21,16 @@ def try_import(name, old_path, new_path):
     try:
         mod = __import__(old_path, None, None, [name])   # positional, no kwargs
         cls = getattr(mod, name)
-        print(f"  [{name}] loaded from {old_path}")
+        if DETAILS:
+            print(f"  [{name}] loaded from {old_path}")
         return cls
     except Exception:
         pass
     try:
         mod = __import__(new_path, None, None, [name])   # positional, no kwargs
         cls = getattr(mod, name)
-        print(f"  [{name}] loaded from {new_path}")
+        if DETAILS:
+            print(f"  [{name}] loaded from {new_path}")
         return cls
     except Exception as e:
         print(f"  [{name}] NOT available: {e}")
@@ -42,17 +46,20 @@ ImageFile = try_import("ImageFile", OLD, NEW)
 if ImageFile is not None:
     try:
         names = [n for n in dir(ImageFile) if not n.startswith("__")]
-        print(f"  Found {len(names)} ImageFile entries\n")
+        if DETAILS:
+            print(f"  Found {len(names)} ImageFile entries\n")
         for name in names:
             hub.screen.clear()
             image = getattr(ImageFile, name)
-            print(f"  Showing ImageFile.{name}")
+            if DETAILS:
+                print(f"  Showing ImageFile.{name}")
             hub.screen.print(name)
             x, y = (0, 0) if name == "_PYBRICKS_JOIN" else (20, 20)
 
             try:
                 hub.screen.draw_image(x, y, image)          # V4 positional
-            except TypeError:
+            except TypeError as e:
+                print(f"Fallback to screen.draw_image due to {e}")
                 hub.screen.draw_image(source=image, X=x, Y=y)  # V2 keyword fallback
             wait(2000)
         hub.screen.clear()
@@ -70,59 +77,69 @@ if Image is not None and ImageFile is not None:
         source = getattr(ImageFile, "WRENCH17", None) or getattr(ImageFile, dir(ImageFile)[0])
         img = Image(source, sub=False)
         X1, Y1, X2, Y2 = 0, 0, img.width, img.height
-        print(f"  Image size: {img.width} x {img.height}")
+        if DETAILS:
+            print(f"  Image size: {img.width} x {img.height}")
 
         try:
             img.draw_text(0, 0, str(source), text_color=Color.BLACK, background_color=None)
-            print("  draw_text         OK")
+            if DETAILS:
+                print("  draw_text         OK")
         except Exception as e:
             print(f"  draw_text         FAIL: {e}")
 
         try:
             img.draw_pixel(0, 0, color=Color.BLACK)
-            print("  draw_pixel        OK")
+            if DETAILS:
+                print("  draw_pixel        OK")
         except Exception as e:
             print(f"  draw_pixel        FAIL: {e}")
 
         try:
             img.draw_line(X1, Y1, X2, Y2, width=1, color=Color.BLACK)
-            print("  draw_line         OK")
+            if DETAILS:
+                print("  draw_line         OK")
         except Exception as e:
             print(f"  draw_line         FAIL: {e}")
 
         try:
             img.draw_box(X1, Y1, X2, Y2, r=0, fill=False, color=Color.BLACK)
-            print("  draw_box          OK")
+            if DETAILS:
+                print("  draw_box          OK")
         except Exception as e:
             print(f"  draw_box          FAIL: {e}")
 
         try:
             img.draw_circle(X1, Y1, r=12, fill=False, color=Color.BLACK)
-            print("  draw_circle       OK")
+            if DETAILS:
+                print("  draw_circle       OK")
         except Exception as e:
             print(f"  draw_circle       FAIL: {e}")
 
         try:
             img.draw_image(0, 0, source, transparent=None)
-            print("  draw_image        OK")
+            if DETAILS:
+                print("  draw_image        OK")
         except Exception as e:
             print(f"  draw_image        FAIL: {e}")
 
         try:
             img.load_image(source)
-            print("  load_image        OK")
+            if DETAILS:
+                print("  load_image        OK")
         except Exception as e:
             print(f"  load_image        FAIL: {e}")
 
         try:
             img.clear()
-            print("  clear             OK")
+            if DETAILS:
+                print("  clear             OK")
         except Exception as e:
             print(f"  clear             FAIL: {e}")
 
         try:
             img.save("test_output.png")
-            print("  save              OK")
+            if DETAILS:
+                print("  save              OK")
         except Exception as e:
             print(f"  save              FAIL: {e}")
 
@@ -138,9 +155,11 @@ SoundFile = try_import("SoundFile", OLD, NEW)
 if SoundFile is not None:
     try:
         names = [n for n in dir(SoundFile) if not n.startswith("__")]
-        print(f"  Found {len(names)} SoundFile entries:")
+        if DETAILS:
+            print(f"  Found {len(names)} SoundFile entries:")
         for n in names:
-            print(f"    SoundFile.{n}")
+            if DETAILS:
+                print(f"    SoundFile.{n}")
         wait(500)
     except Exception as e:
         print(f"  [SoundFile enumerate] failed: {e}")
@@ -156,44 +175,52 @@ if Font is not None:
     try:
         members   = [n for n in dir(Font) if not n.startswith("__") and not n.startswith("text_")]
         txt_meths = [n for n in dir(Font) if not n.startswith("__") and     n.startswith("text_")]
-        print("  Available constants:", ", ".join(members))
-        print("  Text methods:      ", ", ".join(txt_meths))
+        if DETAILS:
+            print("  Available constants:", ", ".join(members))
+            print("  Text methods:      ", ", ".join(txt_meths))
     except Exception as e:
         print(f"  [Font.dir] failed: {e}")
 
     # Test Font.DEFAULT
     try:
         font = Font.DEFAULT
-        print(f"\n  Font.DEFAULT      : {font}")
+        if DETAILS:
+            print(f"\n  Font.DEFAULT      : {font}")
 
         try:
-            print(f"  family            : {font.family}")
+            if DETAILS:
+                print(f"  family            : {font.family}")
         except Exception as e:
             print(f"  family            FAIL: {e}")
 
         try:
-            print(f"  style             : {font.style}")
+            if DETAILS:
+                print(f"  style             : {font.style}")
         except Exception as e:
             print(f"  style             FAIL: {e}")
 
         try:
-            print(f"  width             : {font.width}")
+            if DETAILS:
+                print(f"  width             : {font.width}")
         except Exception as e:
             print(f"  width             FAIL: {e}")
 
         try:
-            print(f"  height            : {font.height}")
+            if DETAILS:
+                print(f"  height            : {font.height}")
         except Exception as e:
             print(f"  height             FAIL: {e}")
 
         sample = "Hello EV3"
         try:
-            print(f"  text_width('{sample}') : {font.text_width(sample)}")
+            if DETAILS:
+                print(f"  text_width('{sample}') : {font.text_width(sample)}")
         except Exception as e:
             print(f"  text_width        FAIL: {e}")
 
         try:
-            print(f"  text_height('{sample}'): {font.text_height(sample)}")
+            if DETAILS:
+                print(f"  text_height('{sample}'): {font.text_height(sample)}")
         except Exception as e:
             print(f"  text_height       FAIL: {e}")
 
@@ -202,7 +229,8 @@ if Font is not None:
             try:
                 screen_img = Image(hub.screen)
                 screen_img.set_font(font)
-                print("  set_font on screen OK")
+                if DETAILS:
+                    print("  set_font on screen OK")
             except Exception as e:
                 print(f"  set_font          FAIL: {e}")
 

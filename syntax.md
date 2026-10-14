@@ -166,68 +166,11 @@ Report of errors:
 
 Report of errors:
 ```
-Pybricks version: ('ev3', '4.1.0b6', 'ci-build-5095-v4.1.0b6-6-g81c1fa1e6 on 2026-10-09')
+Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
 === 01 ImageFile ===
-  [ImageFile] loaded from pybricks.parameters
-  Found 44 ImageFile entries
-
-  Showing ImageFile._ACCEPT24
-  Showing ImageFile._ACCEPT24_FILL
-  Showing ImageFile._APP_IR_CONTROL_12
-  Showing ImageFile._APP_IR_CONTROL_34
-  Showing ImageFile._APP_MOTOR_CONTROL_AD
-  Showing ImageFile._APP_MOTOR_CONTROL_BC
-  Showing ImageFile._BT_HOST
-  Showing ImageFile._GAMEPAD_SMALL
-  Showing ImageFile._OFF20
-  Showing ImageFile._PORT_VIEW_EMPTY
-  Showing ImageFile._PORT_VIEW_EV3_COLOR_AMBIENT
-  Showing ImageFile._PORT_VIEW_EV3_COLOR_COLOR
-  Showing ImageFile._PORT_VIEW_EV3_COLOR_REFLECTION
-  Showing ImageFile._PORT_VIEW_EV3_GYRO
-  Showing ImageFile._PORT_VIEW_EV3_IR_BEACON
-  Showing ImageFile._PORT_VIEW_EV3_IR_BUTTON
-  Showing ImageFile._PORT_VIEW_EV3_IR_PROXIMITY
-  Showing ImageFile._PORT_VIEW_EV3_MOTOR_LARGE
-  Showing ImageFile._PORT_VIEW_EV3_MOTOR_MEDIUM
-  Showing ImageFile._PORT_VIEW_EV3_TOUCH
-  Showing ImageFile._PORT_VIEW_EV3_ULTRASONIC
-  Showing ImageFile._PORT_VIEW_NXT_COLOR_AMBIENT
-  Showing ImageFile._PORT_VIEW_NXT_COLOR_COLOR
-  Showing ImageFile._PORT_VIEW_NXT_COLOR_REFLECTION
-  Showing ImageFile._PORT_VIEW_NXT_LIGHT_AMBIENT
-  Showing ImageFile._PORT_VIEW_NXT_LIGHT_REFLECTION
-  Showing ImageFile._PORT_VIEW_NXT_SOUND
-  Showing ImageFile._PORT_VIEW_P0_BOTTOM
-  Showing ImageFile._PORT_VIEW_P0_TOP
-  Showing ImageFile._PORT_VIEW_P1
-  Showing ImageFile._PORT_VIEW_P2
-  Showing ImageFile._PORT_VIEW_P3
-  Showing ImageFile._PORT_VIEW_P4
-  Showing ImageFile._PORT_VIEW_PA
-  Showing ImageFile._PORT_VIEW_PB
-  Showing ImageFile._PORT_VIEW_PC
-  Showing ImageFile._PORT_VIEW_PD
-  Showing ImageFile._PYBRICKS_JOIN
-  Showing ImageFile._REJECT24
-  Showing ImageFile._REJECT24_FILL
-  Showing ImageFile._ROTATE_CCW18
-  Showing ImageFile._ROTATE_CW18
-  Showing ImageFile._USB_HOST
-  Showing ImageFile._WRENCH17
 
 === 02 Image ===
-  [Image] loaded from pybricks.parameters
-  Image size: 24 x 16
-  draw_text         OK
-  draw_pixel        OK
-  draw_line         OK
-  draw_box          OK
-  draw_circle       OK
-  draw_image        OK
-  load_image        OK
-  clear             OK
   save              FAIL: 'Image' object has no attribute 'save'
 
 === 03 SoundFile ===
@@ -235,18 +178,6 @@ Pybricks version: ('ev3', '4.1.0b6', 'ci-build-5095-v4.1.0b6-6-g81c1fa1e6 on 202
   Skipping SoundFile — class unavailable
 
 === 04 Font ===
-  [Font] loaded from pybricks.parameters
-  Available constants: DEFAULT, LIBERATIONSANS_14, MONO_8X5_8, TERMINUS_16
-  Text methods:       text_height, text_width
-
-  Font.DEFAULT      : <Font>
-  family            : Terminus
-  style             : Medium
-  width             : 8
-  height            : 16
-  text_width('Hello EV3') : 72
-  text_height('Hello EV3'): 16
-  set_font on screen OK
 
 === Syntax check complete ===
 ```

@@ -24,7 +24,10 @@ connection = None  # No idea yet what this should be
 # Description: Object that represents a Bluetooth connection from one or more remote EV3s.
 try:
     from pybricks.messaging import BluetoothMailboxServer
-    dev = BluetoothMailboxServer
+except Exception as e:
+    print(f"\tNot supported: {'BluetoothMailboxServer':<22} {e}\n")
+else:
+    dev = BluetoothMailboxServer()
 
     dev.wait_for_connection(count=1) 
 	# Description: Waits for aBluetoothMailboxClienton a remote device to connect.
@@ -33,26 +36,22 @@ try:
 	# Description: Closes all connections.
 
     wait(500)
-except Exception as e:
-    print(f"\tNot supported: {'BluetoothMailboxServer':<22} {e}\n")
 
-
-# class BluetoothMailboxClient
-# Description: Object that represents a Bluetooth connection to one or more remote EV3s.
-try:
-    from pybricks.messaging import BluetoothMailboxClient
+    # Description: Object that represents a Bluetooth connection to one or more remote EV3s.
     dev = BluetoothMailboxClient()
-    dev.connect(brick) 
 	# Description: Connects to an BluetoothMailboxServer on another device.
+    dev.connect(brick)
 
     wait(500)
-except Exception as e:
-    print(f"\tNot supported: {'BluetoothMailboxClient':<22} {e}\n")
+
 
 # class Mailbox(name,connection,encode=None,decode=None) 
 # Description: Object that represents a mailbox containing data.
 try:
     from pybricks.messaging import Mailbox
+except Exception as e:
+    print(f"\tNot supported: {'BluetoothMailboxServer':<22} {e}\n")
+else:
     dev = Mailbox(name,connection,encode=None,decode=None)
     dev.read() 
 	# Description: Gets the current value of the mailbox.
@@ -68,34 +67,34 @@ try:
     # that is not equal to the current value in the mailbox.
 
     wait(500)
-except Exception as e:
-    print(f"\tNot supported: {'BluetoothMailboxServer':<22} {e}\n")
 
 
 # class LogicMailbox(name,connection) 
 # Description: Object that represents a mailbox containing boolean data.
 try:
     from pybricks.messaging import LogicMailbox
-    dev = LogicMailbox(name, connection)
-    wait(500)
 except Exception as e:
     print(f"\tNot supported: {'LogicMailbox':<22} {e}\n")
+else:
+    dev = LogicMailbox(name, connection)
+    wait(500)
 
 # class NumericMailbox(name,connection) 
 # Description: Object that represents a mailbox containing numeric data.
 try:
     from pybricks.messaging import NumericMailbox
-    dev = NumericMailbox(name,connection)
-    wait(500)
 except Exception as e:
     print(f"\tNot supported: {'NumericMailbox':<22} {e}\n")
+else:
+    dev = NumericMailbox(name,connection)
+    wait(500)
 
 # class TextMailbox(name,connection) 
 # Description: Object that represents a mailbox containing text data.
 try:
     from pybricks.messaging import TextMailbox
-    dev = TextMailbox(name, connection)
-    wait(500)
 except Exception as e:
     print(f"\tNot supported: {'TextMailbox':<22} {e}\n")
-
+else:
+    dev = TextMailbox(name, connection)
+    wait(500)

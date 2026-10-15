@@ -203,28 +203,11 @@ report of errors:
 
 report of errors:
 ```
-Pybricks version: ('ev3', '4.0.0b7', 'ci-build-4755-v4.0.0b7 on 2026-02-26')
+Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
-TouchSensor is <TouchSensor>
-ts.pressed() False
-ts.pressed() False
-ts.pressed() False
-ls.ambient()         0.3
-ls.ambient()         0.3
-ls.ambient()         0.4
-ls.reflection()      0.1
-ls.reflection()      0.1
-ls.reflection()      0.1
-cs.color()           Color.NONE
-cs.color()           Color.RED
-cs.color()           Color.RED
-        Not supported: ColorSensor.rgb()        'ColorSensor' object has no attribute 'rgb'
+        Not supported: ColorSensor.rgb()
 
-        Not supported: ColorSensor.light.on / off()     'ColorSensor' object has no attribute 'light'
-
-us.distance()        200
-us.distance()        2550
-us.distance()        200
+        Not supported: ColorSensor.light.off/on
 ```
 
 - V2_syntax_nxtdevices_part2

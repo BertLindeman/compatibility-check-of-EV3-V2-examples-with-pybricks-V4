@@ -230,21 +230,10 @@ ss.intensity(audible_only=True)  0
 
 report of errors:
 ```
-        battery
-        buttons
-        light
-        screen
-        speaker
-        system
+Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
-(83, 392, 66, 375)
-dev.settings: (209, 392, 66, 375)
-100
-46.0
-(100, 5, 46, 10)
-dev.distance_control.limits() (209, 392, 449)
-dev.heading_control.target_tolerances() (12, 9)
-```
+
+=== Syntax check complete ===```
 
 ## tools
 - V2_syntax_tools.py

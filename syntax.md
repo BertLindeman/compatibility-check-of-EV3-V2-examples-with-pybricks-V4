@@ -135,6 +135,8 @@ Breaking changes:
    ```
 Report of errors:
 ```
+Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
+
         Not supported: hub.speaker.play_file 
         Not supported: hub.speaker.say 
         Not supported: hub.speaker.set_speech_options 
@@ -144,7 +146,8 @@ Report of errors:
         Not supported: Font(size=24, bold=True): can't create 'Font' instances
         Not supported: Font(size=24, lang='zh-cn'): can't create 'Font' instances
         Not supported: hub.screen.save
-done on ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
+
+=== Syntax check complete ===
 ```
 
 ## iodevices

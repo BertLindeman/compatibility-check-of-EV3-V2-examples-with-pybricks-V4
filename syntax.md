@@ -241,13 +241,13 @@ Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
 report of errors:
 ```
-1 Current time   500
-2 Current time  1000
-3 Current time  1500
-4 Current time     0
-5 Current time   500
+Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
+
 
         Not supported: DataLog                  can't import name DataLog
+
+
+=== Syntax check complete ===
 
 ```
 

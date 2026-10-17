@@ -1,5 +1,10 @@
+# syntax check for tools doc from pybricks V2
 
-from pybricks import version 
+DETAILS = False  # print values to see if all is correct. For the error report set DETILS to False
+
+from pybricks import version
+print(f"Pybricks version: {version}\n")
+
 from pybricks.hubs import EV3Brick
 from pybricks.tools import wait
 from pybricks.parameters import Color
@@ -9,71 +14,73 @@ hub = EV3Brick()
 color = Color.GREEN  # EV3 only has RED GREEN and ORANGE
 notes = ['C4/4', 'C4/4', 'G4/4', 'G4/4']
 
-print("Buttons pressed", hub.buttons.pressed())
 #	Description: Checks which buttons are currently pressed.
+val1 = hub.buttons.pressed()
+if DETAILS:
+    print("Buttons pressed", val1)
 wait(250)
 
-hub.light.on(color)
 #	Description: Turns on the light at the specified color.
+hub.light.on(color)
 wait(250)
 
-hub.light.off()
 #	Description: Turns off the light.
+hub.light.off()
 wait(250)
 
 # NOT SO LOUD please
 hub.speaker.volume(5)
 
-hub.speaker.beep(frequency=500,duration=100)
 #	Description: Play a beep/tone.
+hub.speaker.beep(frequency=500,duration=100)
 wait(250)
 
-hub.speaker.play_notes(notes,tempo=120)
 #	Description: Plays a sequence of musical notes.
+hub.speaker.play_notes(notes,tempo=120)
 wait(250)
 
 try:
-    hub.speaker.play_file(file_name)
     #	Description: Plays a sound file.
+    hub.speaker.play_file(file_name)
     wait(250)
 except:
     print(f"\tNot supported: hub.speaker.play_file ")
 
 try:
-    hub.speaker.say(text)
     #	Description: Says a given text string.
+    hub.speaker.say(text)
     wait(250)
 except:
     print(f"\tNot supported: hub.speaker.say ")
 
 try:
-    hub.speaker.set_speech_options(language=None,voice=None,speed=None,pitch=None)
     #	Description: Configures speech settings used by thesay()method.
+    hub.speaker.set_speech_options(language=None,voice=None,speed=None,pitch=None)
     wait(250)
 except:
     print(f"\tNot supported: hub.speaker.set_speech_options ")
 
 try:
-    hub.speaker.set_volume(volume,which='_all_')
     #	Description: Sets the speaker volume.
+    hub.speaker.set_volume(volume,which='_all_')
     wait(250)
 except:
     print(f"\tNot supported: hub.speaker.set_volume - use hub.speaker.volume(nn)")
 
 
-hub.screen.clear()
 #	Description: Clears the screen. All pixels on the screen will be set toColor.WHITE.
+hub.screen.clear()
 wait(250)
 
 x = 10
 y = 10
 text = "Text"
-hub.screen.draw_text(x,y,text,text_color=Color.BLACK,background_color=None)
 #	Description: Draws text on the screen.
+hub.screen.draw_text(x,y,text,text_color=Color.BLACK,background_color=None)
 wait(1000)
 
-hub.screen.print("\nPlop", text ,sep='\t',end='\n')
 #	Description: Prints a line of text on the screen.
+hub.screen.print("\nPlop", text ,sep='\t',end='\n')
 wait(1000)
 
 try:
@@ -128,60 +135,61 @@ except:
     print(f"\tNot TESTED:     hub.screen.load_image")
 
 try:
-    hub.screen.draw_image(x,y,source,transparent=None)
     #	Description: Draws thesourceimage on the screen.
+    hub.screen.draw_image(x,y,source,transparent=None)
     wait(250)
 except:
     print(f"\tNot supported: hub.screen.draw_image")
 
-hub.screen.draw_pixel(x,y,color=Color.BLACK)
 #	Description: Draws a single pixel on the screen.
+hub.screen.draw_pixel(x,y,color=Color.BLACK)
 wait(1000)
 
 x1 = 45
 y1 = 45
 x2 = 95
 y2 = 80
-hub.screen.draw_line(x1,y1,x2,y2,width=1,color=Color.BLACK)
 #	Description: Draws a line on the screen.
+hub.screen.draw_line(x1,y1,x2,y2,width=1,color=Color.BLACK)
 wait(1000)
 
 x1 = 45
 y1 = 45
 x2 = 95
 y2 = 80
-hub.screen.draw_box(x1,y1,x2,y2,r=0,fill=False,color=Color.BLACK)
 #	Description: Draws a box on the screen.
+hub.screen.draw_box(x1,y1,x2,y2,r=0,fill=False,color=Color.BLACK)
 wait(1000)
 
 x = 55
 y = 55
 r = 35
-hub.screen.draw_circle(x,y,r,fill=True,color=Color.BLACK)
 #	Description: Draws a circle on the screen.
+hub.screen.draw_circle(x,y,r,fill=True,color=Color.BLACK)
 wait(1000)
 
-hub.screen.print("hub.screen.width", hub.screen.width)
 #	Description: Gets the width of the screen in pixels.
+hub.screen.print("hub.screen.width", hub.screen.width)
 wait(250)
 
-hub.screen.print("hub.screen.height", hub.screen.height)
 #	Description: Gets the height of the screen in pixels.
+hub.screen.print("hub.screen.height", hub.screen.height)
 wait(250)
 
 try:
-    hub.screen.save(filename)
     #	Description: Saves the screen as a png file.
+    hub.screen.save(filename)
     wait(250)
 except:
     print(f"\tNot supported: hub.screen.save")
 
-hub.screen.print("hub.battery.voltage():", hub.battery.voltage(), "mV")
 #	Description: Gets the voltage of the battery.
+hub.screen.print("hub.battery.voltage():", hub.battery.voltage(), "mV")
 wait(250)
 
-hub.screen.print("hub.battery.current():", hub.battery.current(), "mA")
 #	Description: Gets the current supplied by the battery.
+hub.screen.print("hub.battery.current():", hub.battery.current(), "mA")
 wait(250)
 
-print("done on", version)
+# ── Done ──────────────────────────────────────────────────────
+print("\n=== Syntax check complete ===")

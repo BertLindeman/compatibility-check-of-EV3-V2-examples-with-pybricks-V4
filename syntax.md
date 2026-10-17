@@ -214,15 +214,16 @@ Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
 report of errors:
 ```
-ss.intensity(audible_only=False) 0
-ss.intensity(audible_only=False) 0
-ss.intensity(audible_only=False) 0
-ss.intensity(audible_only=True)  0
-ss.intensity(audible_only=True)  0
-ss.intensity(audible_only=True)  0
-        Not supported: TemperatureSensor        [Errno 116] ETIMEDOUT: Timed out
+Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
-        Not supported: EnergyMeter              [Errno 116] ETIMEDOUT: Timed out
+        No TemperatureSensor available or different device on Port.S2   [Errno 116] ETIMEDOUT: Timed out
+
+        Exception on EnergyMeter on Port.S3     [Errno 116] ETIMEDOUT: Timed out
+
+        No VernierAdapter attached on Port.S4
+
+
+=== Syntax check complete ===
 ```
 
 ## robotics

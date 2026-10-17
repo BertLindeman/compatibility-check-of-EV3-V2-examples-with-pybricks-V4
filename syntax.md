@@ -233,7 +233,8 @@ report of errors:
 Pybricks version: ('ev3', '4.1.0', 'ci-release-112-v4.1.0 on 2026-10-12')
 
 
-=== Syntax check complete ===```
+=== Syntax check complete ===
+```
 
 ## tools
 - V2_syntax_tools.py

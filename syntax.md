@@ -107,12 +107,36 @@ if __name__ == "__main__":
 
 Two tests are needed: one with a touch sensor on Port.S1 and another with the gyro sensor on Port.S1
 
-Slight difference on motor.control.pid():
+Breaking change on motor.control.pid():
 
 - V2   doc
     - pid(kp, ki, kd, integral_range, integral_rate, feed_forward)
 - V3.6 doc
     - pid(kp, ki, kd, integral_deadzone, integral_rate)
+
+Report of error(s):
+```
+Pybricks version: ('ev3', '4.1.0', 'ci-build-5104-v4.1.0-8-gd1c74c9d6 on 2026-10-20')
+
+        PID V2 syntax failed: need more than 5 values to unpack
+        PID V4 alternative OK: (5731, 4298, 214, 8, 15)
+
+Done with 1 error(s)
+```
+and gyro test:
+```
+Pybricks version: ('ev3', '4.1.0', 'ci-build-5104-v4.1.0-8-gd1c74c9d6 on 2026-10-20')
+
+        PID V2 syntax failed: need more than 5 values to unpack
+        PID V4 alternative OK: (5731, 4298, 214, 8, 15)
+
+No touch sensor on Port.S1, try Gyro
+
+
+Done with 1 error(s)
+```
+
+
 
 ##  hubs
 - V2_syntax_hubs.py

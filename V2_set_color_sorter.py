@@ -11,10 +11,27 @@ Download: https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3
 Building instructions can be found at:
 https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-core
 """
+# /BL help variables
+err0 = False
+err1 = False
+err2 = False
+err3 = False
+err4 = False
+err5 = False
+# /BL ==============
 
 from pybricks.hubs import EV3Brick
 from pybricks.ev3devices import Motor, TouchSensor, ColorSensor
-from pybricks.parameters import Port, Button, Color, ImageFile, SoundFile
+from pybricks.parameters import Port, Button, Color, ImageFile
+try:   # missing SoundFile
+    from pybricks.parameters import SoundFile
+except Exception as ex:
+    if err0:
+        pass
+    else:
+        print(f"\t{ex}")
+        err0 = True  # reported
+
 from pybricks.tools import wait
 
 # The colored objects are either red, green, blue, or yellow.
@@ -22,6 +39,7 @@ POSSIBLE_COLORS = [Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW]
 
 # Initialize the EV3 brick.
 ev3 = EV3Brick()
+ev3.speaker.volume(10)  # not so loud /BL
 
 # Initialize the motors that drive the conveyor belt and eject the objects.
 belt_motor = Motor(Port.D)
@@ -33,6 +51,20 @@ touch_sensor = TouchSensor(Port.S1)
 
 # Initialize the Color Sensor. It is used to detect the color of the objects.
 color_sensor = ColorSensor(Port.S3)
+
+# /BL help function for ev3.speaker.say()
+def fn_say(col):
+    global err4
+    print(f"err4:{err4}")
+    try:
+        ev3.speaker.say(col)
+    except Exception as ex:
+        ev3.screen.print(f"fn_say {col}")
+        if err4:
+            ev3.screen.print(f"fn_say {col}")
+        else:
+            print(f"\t{ex}")
+            err4 = True  # reported
 
 
 # This is the main loop. It waits for you to scan and insert 8 colored objects.
@@ -67,7 +99,14 @@ while True:
     # while the length of the list is still less than 8.
     while len(color_list) < 8:
         # Show an arrow that points to the color sensor.
-        ev3.screen.load_image(ImageFile.RIGHT)
+        try:
+            ev3.screen.load_image(ImageFile.RIGHT)
+        except Exception as ex:
+            if err1:
+                pass
+            else:
+                print(f"\t{ex}")
+                err1 = True  # reported
 
         # Show how many colored objects we have already scanned.
         ev3.screen.print(len(color_list))
@@ -101,12 +140,34 @@ while True:
         ev3.speaker.beep(2000, 100)
 
         # Show an arrow pointing to the center button, to ask if we are done.
-        ev3.screen.load_image(ImageFile.BACKWARD)
+        try:
+            ev3.screen.load_image(ImageFile.BACKWARD)
+        except Exception as ex:
+            if err1:
+                ev3.screen.print("backward")
+            else:
+                print(f"\t{ex}")
+                err1 = True  # reported
         wait(2000)
 
     # Play a sound and show an image to indicate that we are done scanning.
-    ev3.speaker.play_file(SoundFile.READY)
-    ev3.screen.load_image(ImageFile.EV3)
+    try:
+        ev3.speaker.play_file(SoundFile.READY)
+    except Exception as ex:
+        if err2:
+            pass
+        else:
+            print(f"\t{ex}")
+            err2 = True  # reported
+
+    try:
+        ev3.screen.load_image(ImageFile.EV3)
+    except Exception as ex:
+        if err3:
+            pass
+        else:
+            print(f"\t{ex}")
+            err3 = True  # reported
 
     # Now sort the bricks according the list of colors that we stored.
     # We do this by going over each color in the list in a loop.
@@ -116,20 +177,19 @@ while True:
 
         # Run the conveyor belt motor to the right position based on the color.
         if color == Color.BLUE:
-            ev3.speaker.say('blue')
+            fn_say('blue')  # ev3.speaker.say('blue')
             belt_motor.run_target(500, 10)
         elif color == Color.GREEN:
-            ev3.speaker.say('green')
+            fn_say('green')  # ev3.speaker.say('green')
             belt_motor.run_target(500, 132)
         elif color == Color.YELLOW:
-            ev3.speaker.say('yellow')
+            fn_say('yellow')  # ev3.speaker.say('yellow')
             belt_motor.run_target(500, 360)
         elif color == Color.RED:
-            ev3.speaker.say('red')
+            fn_say('red')  # ev3.speaker.say('red')
             belt_motor.run_target(500, 530)
 
         # Now that the conveyor belt is in the correct position, eject the
         # colored object.
         feed_motor.run_angle(1500, 180)
         feed_motor.run_angle(1500, -180)
-
